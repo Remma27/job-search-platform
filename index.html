@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="styles/index.css" media="screen" />
+        <title>Certifications</title>
+    </head>
+    <body>
+        <div class="caja">
+            <div class="container">
+                <h1 id="username"></h1>
+                <p id="email"></p>
+                <p id="cellphone"></p>
+                <button id="updateButton">Update Information</button>
+                <button id="addCertificatesButton">Add Certificates</button>
+                <button id="logoutButton" onclick="logout()">Log Out</button>
+            </div>
+            <div class="container">
+                <h1>Your Certifications</h1>
+                <table id="certificationsTable">
+                    <thead>
+                        <tr>
+                            <th>Description</th>
+                            <th>Category</th>
+                            <th>Study Center</th>
+                            <th>Year</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <div class="container">
+                <h1>Jobs offers</h1>
+                <div id="jobList"></div>
+            </div>
+        </div>
+        <script src="codes/index.js"></script>
+    </body>
+</html>

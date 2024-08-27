@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="styles/forms.css" media="screen" />
+        <title>Update Certificate Information</title>
+    </head>
+    <body>
+        <a href="index.html" class="link">Exit</a>
+        <div class="caja">
+            <h1>Update Certification</h1>
+            <form id="updateCertificationForm">
+                <!-- Add a hidden input field for certification ID -->
+                <input type="hidden" id="certificationId" name="certificationId" value="YOUR_CERTIFICATION_ID" />
+
+                <label for="description">Description:</label>
+                <input type="text" id="description" name="description" required /><br /><br />
+
+                <label for="category">Category:</label>
+                <input type="text" id="category" name="category" required /><br /><br />
+
+                <label for="studycenter">Study Center:</label>
+                <input type="text" id="studycenter" name="studycenter" required /><br /><br />
+
+                <label for="year">Year:</label>
+                <input type="number" id="year" name="year" class="year-input" required /><br /><br />
+
+                <input type="submit" value="Update Certification" />
+            </form>
+        </div>
+        <script src="codes/updateCertificate.js"></script>
+    </body>
+</html>

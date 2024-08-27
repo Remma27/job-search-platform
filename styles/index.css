@@ -1,0 +1,166 @@
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    padding: 5px;
+}
+
+h2,
+h3 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-top: 1px;
+    color: #007bff;
+    font-weight: 600;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+}
+
+button,
+.apply-button {
+    display: block;
+    margin: 8px auto;
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover,
+.apply-button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    overflow-x: auto;
+    padding-bottom: 20px;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.btn-action {
+    display: inline-block;
+    margin: 3px;
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-action:hover {
+    background-color: #0056b3;
+}
+
+.job-item {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    width: 97.1%;
+}
+
+.job-item h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.job-item p {
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.job-item ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.job-item ul li {
+    margin-bottom: 4px;
+}
+
+.apply-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.apply-button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    margin-bottom: 15px;
+}
+
+li {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    button,
+    .apply-button {
+        display: block;
+        margin: 10px auto;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    th,
+    td {
+        padding: 8px 4px;
+    }
+}

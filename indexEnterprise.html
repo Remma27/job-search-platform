@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Enterprise Information</title>
+        <link rel="stylesheet" href="styles/index.css" media="screen" />
+    </head>
+    <body>
+        <div class="container">
+            <h1 id="username"></h1>
+            <p id="url"></p>
+            <p id="callcenter"></p>
+            <p id="address"></p>
+            <button id="updateButton" onclick="updateEnterprise()">Update Information</button>
+            <button id="insertJob" onclick="insertJob()">Insert Job</button>
+            <button id="logoutButton" onclick="logout()">Log Out</button>
+        </div>
+        <h1>Job offers</h1>
+        <div class="container">
+            <table id="jobTable">
+                <thead>
+                    <tr>
+                        <th>Job</th>
+                        <th>Description</th>
+                        <th>Hiring Type</th>
+                        <th>Requirements</th>
+                        <th>Salary</th>
+                        <th>Interested People</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div class="container">
+            <h1>People interested in our job offers</h1>
+            <div id="peopleList"></div>
+            <p id="noPeopleInterested"></p>
+        </div>
+        <script src="codes/getEnterprise.js"></script>
+    </body>
+</html>

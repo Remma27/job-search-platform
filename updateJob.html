@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Update Job Information</title>
+        <link rel="stylesheet" href="styles/forms.css" media="screen" />
+    </head>
+    <body>
+        <a href="/indexEnterprise.html" class="link">Exit</a>
+        <div class="caja">
+            <h1>Update Job</h1>
+            <form id="createJobForm">
+                <label for="titlejob">Job Title:</label><br />
+                <input type="text" id="titlejob" name="titlejob" /><br />
+
+                <label for="description">Description:</label><br />
+                <textarea id="description" name="description"></textarea><br />
+
+                <label for="hiringtype">Hiring Type:</label><br />
+                <input type="text" id="hiringtype" name="hiringtype" /><br />
+
+                <label for="salary">Salary:</label>
+                <input type="text" id="salary" name="salary" required />
+
+                <input type="hidden" id="token" name="token" />
+
+                <button type="submit">Submit</button>
+            </form>
+
+            <div id="error-message"></div>
+        </div>
+        <script src="codes/updateJob.js"></script>
+    </body>
+</html>
